@@ -1,0 +1,29 @@
+{
+  "name": "apollo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/server": "^4.10.1",
+    "@neo4j/graphql": "^5.1.0",
+    "apollo-server": "^3.13.0",
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "graphql": "^16.8.1",
+    "graphql-rate-limit": "^3.3.0",
+    "jsonwebtoken": "^9.0.2",
+    "neo4j-driver": "^5.18.0",
+    "nodemon": "^3.1.0",
+    "rate-limiter-flexible": "^5.0.0",
+    "uuid": "^9.0.1",
+    "whatwg-url": "^14.0.0"
+  }
+}
